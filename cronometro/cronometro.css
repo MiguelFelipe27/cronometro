@@ -1,0 +1,57 @@
+*{ /*resertar conf gerais da tela*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*moldar todos os elementos em forma box*/
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em; /* Tamanho da fonte*/
+    background: #0276ad; /*Cor de fundo da tela*/
+    color: #fff; /*cor das letras*/
+    display: flex; /*Formatar a caixa pra ficar livre na tela*/
+    align-items: center; /*Alinhamento vertical da tela*/
+    justify-content: center; /*Alinhamento horizontal da tela*/
+    min-height: 100vh; /*tamanho minimo da tela, ocupara 100% da visualizacao*/
+    text-align: center; /*centralizacao do texto*/
+}
+h1
+{
+    font-size: 70px; /*Tamanho da fonte do titulo*/
+    letter-spacing: 5px; /*Espacamento entre as letras*/
+    padding: 30px; /*Espacamento interno do componente*/
+    background: #024c6f; /*C    or de fundo do titulo*/
+    border-radius: 20px; /*Cantos arredondados*/
+    font-weight: 700; /*Negrito*/
+    margin: 0 auto 30px; /*Margin superior=0, direita e esquerda auto, inferior=30*/
+}
+.box
+{
+    width: 400px; /*LARGURA DE 400*/
+    text-align: center; /*alinhamento centralizado*/
+    padding: 30px; /*ESPACAMENTO INTERNO*/
+    background: #024c6f;
+    font-size: 100px;
+    border-radius: 20px;
+    margin: 0 auto 30px; /*margem do elemnento*/
+}
+button
+{
+    border: 0; /*retira a borda*/
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #024c6f;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase; /*deixar as letras em maiusculo do elemento*/
+    margin: 0;
+}
+button:hover
+{
+    background: #0ba1e8;
+    color: #024c6f;
+}
+button:focus
+{
+    background: rgb(0, 240, 248);
+}
